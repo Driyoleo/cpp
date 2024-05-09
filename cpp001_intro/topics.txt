@@ -1,0 +1,27 @@
+c++ language :
+
+# history
+- C++ was developed by Bjarne Stroustrup at Bell Laboratories over a period starting in 1979
+- it was introduced as a extension to c languauge 
+- aimed to provide object oriented programming
+
+# merits
+- it is faster than other languages
+- more control over system resources
+- memory management
+
+# info about c++
+- it is compiled language
+
+# uses
+-  C++ is a fast and strongly-typed programming language which makes it an ideal choice for developing purposes
+    1. operating system
+    2. game development
+    3. GUI development
+    4. embedded system 
+    5. banking applications
+    etc many more.....
+
+# resources from which i am gonna learn all this
+.. 1. code with harry course ~ https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&si=t7tvj7Qf-_nTaGYJ
+   2. notes ~ https://www.codewithharry.com/tutorial/cplusplus/
