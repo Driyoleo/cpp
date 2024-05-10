@@ -1,0 +1,37 @@
+~ variables :
+
+# defination
+- varibales can be defined as the container to store value or the identifiyers which are assigned to a value and it identifies it..
+
+# declaration synatax
+- we cannot declare any  variable without defining it's data type ..
+- syntax .. data_type variable ;
+-     or .. data_type variable = value ;
+
+# rules for declaration of a variable in c++
+- character range for a variable is 1 to 255 character
+- it should contain only characters , integers and _
+- it must not start with any number 
+- it should not contain any other special character
+- it should not be a keyword
+
+
+~ comments 
+
+# defination 
+- A comment is a human-readable text in the source code, which is ignored by the compiler. Comments can be used to insert any informative piece which a programmer does not wish to be executed. It could be either to explain a piece of code or to make it more readable. In addition, it can be used to prevent the execution of alternative code when the process of debugging is done.
+Comments can be singled-lined or multi-lined.
+
+# single line comment
+- defined as // before any set of characters
+- eg. // this is a single line comment
+
+# multiple line comment
+- defined within /* and  */
+- eg. /* this
+         is 
+         A
+         multi 
+         line 
+         comment
+      */
