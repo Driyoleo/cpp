@@ -27,12 +27,13 @@
 - char :  
     - every char (alphabet , numbers , special characters etc ..) comes under char 
     - size 1 byte
-    - eg. "ab" , "jhbsud23#@#" , etc .. 
+    - eg. 'f' , 'l' , 'j' .. etc
 
 - wide character : 
     - is also a character data type but this data type has a size greater than the normal
     - size 8 byte
     - represented as wchar_t
+    - it store the ASCII value of that character
 
 - void :
     - it defines absence of value 
