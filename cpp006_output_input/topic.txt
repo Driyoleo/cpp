@@ -1,0 +1,15 @@
+~ output and input methods 
+
+- C++ language comes with different libraries, which help us in performing input/output operations. In C++, sequences of bytes corresponding to input and output are commonly known as streams.
+- but we will mainly use iostream..
+
+# iostream 
+- it is a header file which includes the output and input operations
+- it's full form is .. input output stream
+- input stream : In the input stream, the direction of the flow of bytes occurs from the input device (for ex keyboard) to the main memory.
+- output stream : In the output stream, the direction of flow of bytes occurs from the main memory to the output device (for ex-display)
+
+# insertion operator .. <<  .. used in cout 
+# extraction operator .. >> .. used in cin
+
+
