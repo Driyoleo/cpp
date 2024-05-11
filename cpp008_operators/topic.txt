@@ -1,0 +1,51 @@
+~ Operators 
+
+# defination 
+- operators operates with the two operands
+
+# types of operators 
+- 1. arithmatic operators
+- 2. relational operators
+- 3. logical operators
+- 4. bitwise operators
+- 5. assignment operators
+
+# arithmatic operators 
+- +
+- -
+- /
+- *
+- %
+- a++
+- a--
+- ++a
+- --a
+
+# realtional operators 
+- <
+- > 
+- <=
+- >=
+- ==
+- !=
+
+# logical operators
+- &&
+- ||
+- !
+
+# bitwise operators
+- & , bitwise and
+- | , bitwise or
+- ^ , bitwise xor
+- ~ , bitwise compliment
+- >> , right shift
+- << , left shift 
+
+# assignment operators
+- =
+- +=
+- -=
+- *=
+- /=
+- %=
