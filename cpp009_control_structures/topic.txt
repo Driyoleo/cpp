@@ -17,8 +17,7 @@
 - Selection structure refers to the execution of instruction according to the selected condition, which can be either true or false. There are two ways to implement selection structures. They are done either by if-else statements or by switch case statements. 
 - diff selection structure :
     1. if - else 
-    2. if - else if - else 
-    3. switch 
+    2. switch 
 - eg. 
     if (age > 18 ){
         cout << "you are adult" << endl ;
@@ -32,4 +31,6 @@
 - diff loop structures :
     1. for loop
     2. while loop
+    3. do while loop
+    
 

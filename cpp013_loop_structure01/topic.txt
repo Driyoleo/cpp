@@ -1,0 +1,37 @@
+~ loop structure 
+
+# importance 
+- these type of structure is important when a repitative work comes 
+- it helps in code reduction
+- simplification of code
+- reduce time complexibility of the code
+
+# diff loop structure 
+- 1. for loop 
+- 2. while loop
+- 3. do while loop
+
+~ for loop 
+
+# syntax 
+- for ( initialisation , condition , stepping ){
+    statement ;
+  }
+
+# eg. 
+    for ( int i ; i < 6 ; i++){
+        cout << i << endl ;
+    }
+    - output : 
+        0
+        1
+        2
+        3
+        4
+        5
+
+# note 
+- unlike python it can be infinite if condition is always true
+
+    
+
