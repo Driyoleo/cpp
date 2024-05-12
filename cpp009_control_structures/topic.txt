@@ -1,0 +1,35 @@
+~ c++ control structures
+
+# types of control structures 
+- 1. sequence structure
+- 2. selection structure
+- 3. loop structure
+
+# sequence structure 
+- Sequence structure refers to the sequence in which program execute instructions one after another. 
+- eg . 
+    int a = 1 ;
+    int b = 3 ;
+    int sum = a + b ;
+    cout << sum << endl ;
+
+# selection structure 
+- Selection structure refers to the execution of instruction according to the selected condition, which can be either true or false. There are two ways to implement selection structures. They are done either by if-else statements or by switch case statements. 
+- diff selection structure :
+    1. if - else 
+    2. if - else if - else 
+    3. switch 
+- eg. 
+    if (age > 18 ){
+        cout << "you are adult" << endl ;
+    }
+    else {
+        cout << "you are a kid" << endl ;
+    }
+
+# loop structure
+- Loop structure refers to the execution of an instruction in a loop until the condition gets false. 
+- diff loop structures :
+    1. for loop
+    2. while loop
+
