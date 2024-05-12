@@ -1,0 +1,49 @@
+~ selection structure 
+
+# diff selection structure
+- if-else
+- switch
+
+~ if-else selection structure
+
+# explanation 
+- If else statements are used to implement a selection structure. Like any other programming language, C++ also uses the if keyword to
+  implement the decision control instruction. 
+
+- The condition for the if statement is always enclosed within a pair of parentheses. If the condition is true, then the set of statements
+  following the if statement will execute. And if the condition evaluates to false, then the statement will not execute, instead, the
+  program skips that enclosed part of the code.
+
+- An expression in if statements are defined using relational operators. The statement written in an if block will execute when the
+  expression following if evaluates to true. But when the if block is followed by an else block, then when the condition written in the if
+  block turns to be false, the set of statements in the else block will execute.
+
+# syntax 
+- case 1 : only if ..
+    if (condition) {
+        statement ;
+    }
+
+- case 2 : if-else ..
+    if (condition) {
+        statement ;
+    }
+    else {
+        statement ;
+    }
+
+- case 3 : if-elif-else ..
+    if (condition) {
+        statement ;
+    }
+    else if (condition){
+        statement ;
+    }
+    else {
+        statement ;
+    }
+
+# note 
+- in case 3 , we can insert as many else if between if and else as much we want there is no limit 
+- if any one condition is true the rest will not run 
+- the excecution in it is like a ladder from top ,.. first if then else if x (as many time we have inserted) .. then else 
