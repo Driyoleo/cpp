@@ -1,0 +1,34 @@
+~ while loop
+# syntax 
+- int i ;  // initiallisation 
+  while (i<11){ // condition 
+    statement ;
+    i++ ;       // increament 
+  }
+
+# note  
+- initiallisation and  increament is not neccesary if you want a infinite loop
+
+~ do while loop
+
+# syntax
+- int i ;
+  do {
+    statement ;
+    i++ ;
+  }while( i < 11) ;
+
+# note 
+- here also initiallisation and increament is not neccesary if you want a  infinite loop
+- diff between while and do while loop is that .. 
+    - do while loop while run once even the condition is false always
+    - eg.
+        int i ;
+        do {
+            cout << i ;
+            i++;
+        }while (i < -1 );
+
+        - output :
+            0
+
