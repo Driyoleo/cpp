@@ -1,0 +1,10 @@
+~ break and continue
+
+# defination (break)
+- Break statement is used to break the loop or switch case statements execution and brings the control to the next block of code after
+  that particular loop or switch case it was used in.
+
+# defination (continue)
+- The continue statement is used inside loops in C++ language. When a continue statement is encountered inside the loop, the control
+  jumps to the beginning of the loop for the next iteration, skipping the execution of statements inside the body of the loop after the
+  continue statement.
