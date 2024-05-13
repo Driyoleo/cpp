@@ -1,0 +1,28 @@
+~ pointer
+
+# defination 
+- simple : it is variable which stores the address of other variable
+- A pointer is a data type that holds the address of another data type. A pointer itself is a variable that points to any other variable
+  It can be of type int, char, array, function, or even any other pointer. Pointers in C++ are defined using the ‘*’ (asterisk) operator.
+
+# syntax 
+- <data type>* <pointer_variable> = &<addressed_variable>
+- eg. 
+    int* b = &a ;
+    - here b is the pointer of address of a 
+
+# operators
+- & : address of operator
+- * : dereference operator
+
+# address of operator
+- it give the address of any variable 
+- syntax :
+    &<variable>
+- eg. 
+    cout << "address of num is : " << &num ;
+
+# dereference operator
+- it gives the value at the address hold by a pointer 
+- eg. 
+    cout << "value at the address hold by the pointer b : " *b ;
