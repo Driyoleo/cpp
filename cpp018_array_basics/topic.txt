@@ -1,0 +1,39 @@
+~ Array basics
+
+# defination
+- Array is a collection of one or many data of similar data type with one name
+
+# need of Array ?
+- to store data in a compact form
+- easy to access
+- easy to manipulate
+
+# declaration
+- <data_type> <variable>[n] = {data_1 , data_2 ,.... , data_n } ;
+- note :
+    - give data_type similar to which providing data inside the Array
+    - variable[n] .. here n is the size of the Array , but it is optional when you assign a value at the time of declaration
+    - the data inside Array can be changed 
+    - Array with size 0 is not valid 
+    - we can store data of only one data_type
+- eg.
+    int marks[] = { 1 , 2 , 3 , 4 } 
+
+# accessing data 
+- we can access data by indeces
+- eg. 
+    cout << marks[0] ;
+    .. output :
+        1
+
+# manipulation 
+- eg.
+    marks[0] = 10 ;
+    cout << marks ;
+    .. output :
+        { 10 , 2 , 3 , 4 }
+
+
+
+
+
