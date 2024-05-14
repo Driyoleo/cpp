@@ -1,0 +1,42 @@
+# how to find length of arr
+- 1. through typeid operator ( accurate , time effective code for big data of array ) ; 
+    eg. 
+    int arr[] = { 23 , 45 , 65 , 75 , 21 , 4 , 100 , 5 , 89 ,23 ,44 ,56 } ;
+    string slen = typeid(arr).name() ;
+    int i = slen.find("_") ;
+    int len = 0 ;
+    for (int j = i-1 ; j > 0 ; j--){
+        len += ( int(slen[j])-48 ) * pow( 10 , i-(j+1) ) ;
+    }
+    cout << len ;
+
+    - concept :
+        - typeid(arr).name() returs .. A<len>_<data type>  .. eg. A10_i
+        - data_type of slen is const char* 
+        - but data_type of slen[1] is char
+        - while conversion of char to int .. ascii value of it is returned .. eg. int('0') is 48 
+        - rest of loop is done to extract the len 
+
+    .. eg.
+        if..    slen = "A10_i"
+        then..  len = ( int(slen[2])-48 ) + ( int(slen[1])-48 ) * 10
+        means.. len = ( int('0')-48 ) + ( int('1')-48 )*10
+                len = ( 48 - 48 ) + ( 49 - 48 )*10 
+                len = 0 + 10
+                len = 10 
+
+- 2. sizeof() : for this you need to know the size of that data type
+    eg.  
+        int arr[] = { 23 , 45 , 65 , 75 , 21 , 4 , 100 , 5 , 89 ,2} ;
+        int len = sizeof(arr)/sizeof(int) ;
+        cout << len ;
+        .. output :
+            10
+    - concept :
+        - size of arr is equal to total element multiplied by one element size
+        - and a arr hold elements of similar type 
+
+    - note : 
+        - it will fail for multi dimesion array .
+
+
