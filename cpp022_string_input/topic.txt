@@ -1,0 +1,80 @@
+~ taking input in strings
+
+# ways of taking input in strings
+- cin
+- getline
+- stringstream
+
+# cin 
+- most simple and used way to take input of string
+- syntax : 
+    cin >> variable ;
+- example :
+    string str ;
+    cout << "enter your name : " ;
+    cin >> str ;
+    cout << "nice to meet you " << str <<"." ;
+    
+    .. output :
+        enter your name : Driyo
+        nice to meet you Driyo.
+
+# getline 
+- The getline() function in C++ is used to read a string from an input stream.
+- syntax :
+    getline( cin , <variable> ) ;
+- example : 
+    string str ;
+    cout << "enter your name : " ;
+    getline( cin , str ) ;
+    cout << "have a good day .." << str ; 
+
+    .. output :
+        enter your name : Driyo
+        have a good day ..Driyo
+
+# stringstream 
+- The stringstream class in C++ is used to take multiple strings as input at once.
+- operates mainly on spaces
+- syntax :
+    stringstream <object>(string) ;
+- example :
+    stringstream obj("hi i am robo") ;
+    string temp ;
+    while (obj >> temp){
+        cout << temp << endl ;
+    }
+
+    .. output :
+        enter your name : Driyo
+        have a good day ..Driyo
+        hi
+        i
+        am
+        robo
+
+
+# difference between string and array of characters 
+
+String
+
+- Strings define objects that can be represented as string streams.	
+- No Array decay occurs in strings as strings are represented as objects.	
+- A string class provides numerous functions for manipulating strings.	
+- Memory is allocated dynamically.	
+
+Character Array
+
+- The null character terminates a character array of characters.
+- The threat of array decay is present in the case of the character array 
+- Character arrays do not offer inbuilt functions to manipulate strings.
+- The size of the character array has to be allocated statically. 
+
+
+
+
+
+
+
+
+
