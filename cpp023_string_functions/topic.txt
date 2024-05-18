@@ -1,0 +1,69 @@
+~ string functions 
+
+# types of string functions
+- basic functions
+- iterator functions
+- capacity functions
+
+~ string basic functions 
+
+# length() 
+- it tells the length of the string 
+- syntax :
+    string_variable.length() ;
+- eg.. 
+    string str = "hello" ;
+    cout << str.length() ;
+
+    .. output : 
+        5
+
+# swap() 
+- it swap the value of two variable of any data type but their data type must be similar
+- syntax :
+    swap(a,b) ;
+- eg.. 
+    string str1 = "hello" ;
+    string str2 = "world" ;
+    cout << str1 << " " << str2 << endl;
+    swap(str1 , str2 ) ;
+    cout << str1 << " " << str2 ;
+
+    .. output :
+        hello world
+        world hello
+
+# size()
+- it tells the total size of the string 
+- syntax :
+    string_variable.size() 
+- eg.. 
+    cout << str1.size() << endl;
+
+    .. output :
+        5
+- note : size of one char is 1 byte
+
+# resize()
+- it resize the string by reducing it number of characters inside it
+- syntax :
+    string_variable.resize() 
+- eg.. 
+    cout << str2 << endl ;
+    str2.resize(4) ;
+    cout << str2 << endl ;
+
+    .. output :
+        hello
+        hell
+
+# find() 
+- it returns the starting index of that sub string in the main string at the first occurence only
+- syntax :
+    string_variable.find(<sub_string>) ;
+- eg.. 
+    string sentence = "hello world how are you howard ?" ;
+    cout << sentence.find("ho") << endl ;
+
+    .. output :
+        12 
