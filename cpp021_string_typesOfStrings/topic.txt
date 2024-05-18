@@ -1,0 +1,41 @@
+~ String 
+
+# defination 
+- C++ strings are sequences of characters stored in a char array. 
+- Strings are used to store words and text. They are also used to store data, such as numbers and other types of information.
+- Strings in C++ can be defined either using the std::string class or the C-style character arrays.
+
+# c-style string 
+- These strings are stored as the plain old array of characters terminated by a null character ‘\0’.
+- syntax :
+    1. char str[] = "hello" ;
+    .. (or)
+    2. char str[] = {'h','e','l','l','o','\0'} ;
+       cout << str ;
+    .. output :
+        hello 
+- note :
+    - in first case , total char in the arr are 6 including '\0' at last by default 
+    - in second case , we need to insert manually '\0' at the end , if not then while cout it will provide the string 
+      times..
+      eg. hellohello
+    - both of them type is .. A<len>_c , eg. A6_c
+    - '\0' it is a special character , null 
+
+# std::string Class
+- These are the new types of strings that are introduced in C++ as std::string class defined inside <string> header file.
+- This provides many advantages over conventional C-style strings such as dynamic size, member functions, etc.
+- syntax :
+    string str("hello") ;
+    cout << str ;
+    .. output :
+        hello
+- note : 
+    - it's data type is NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+    - one more way to declare if we want to print more times only one character
+        string str(number , character);
+        eg. string str(5 , 'g') ;
+        .. output :
+            ggggg
+
+    
