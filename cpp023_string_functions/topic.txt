@@ -67,3 +67,92 @@
 
     .. output :
         12 
+
+# push_back()
+- it appends a given character at the last of main string 
+- it takes only char as argument , simply mean you can pass only one alphabet into the string through this
+- it is a void function
+- syntax :
+    string_variable.push_back(<passing character>) ;
+- eg.. 
+    sentence.push_back('c') ;
+    cout << sentence << endl;
+
+    .. output :
+        hello world how are you howard ?c
+
+# pop_back()
+- this functions is used to delete the last character from the string 
+- it is a void function
+- syntax :
+    string_variable.pop_back() ;
+- eg.. 
+    sentence = "hello" ;
+    sentence.pop_back() ;
+    cout << sentence << endl ;
+
+    .. output :
+        hell
+
+# clear()
+- this function is used to clear all the elements in the string 
+- syntax :
+    string_variable.clear() ;
+- eg.. 
+    sentence.clear() ;
+    cout << sentence << "." << endl ;
+
+    .. output :
+        .
+
+# strncmp()
+- it a function for array of characters , to compare two string size of two strings 
+- it returns 0 if both are equal 
+- it returns >0 if arrc1 is greater
+- it returns <0 if arrc2 is greater
+- syntax :
+    string_variable.stncmp(arrc1 , arrc2 , num_byte) ;
+    - arrc1 and arrc2 are the two array of characters to be compared 
+    - num_byte .. simple to mean the number of characters upto which it will compare 
+- eg.. 
+    char s1[] = "az" ;
+    char s2[] = "ab"  ;
+    int result = strncmp(s1 , s2 , 2 ) ;
+    cout << result << endl ;
+
+    .. output :
+        1
+
+# replace() 
+- it is used to repalce a set of characters by another set of characters inside a string
+- syntax :
+    string_variable.replace( start_index , num_variable , replacing_string ) ;
+    - start_index : it means the starting index between which you want to replace
+    - num_variable : the number of characters from start_index which you want to replace
+    - replacing_string : the string whcih should be inserted in the string as replacement 
+eg.. 
+    sentence = "i am a good boy" ;
+    sentence.replace( 7 , 4 ,  "bad") ;
+    cout << sentence << endl ;
+
+    .. output :
+        i am a bad boy
+
+# substr()
+- This function is used to create a substring from a given string. 
+- syntax : 
+    string_variable.substr( start , end ) ;
+    start : starting point 
+    end : the index one less than upto which the substr will be given
+- eg.. 
+    sentence = "i am a good boy" ;
+    cout << sentence.substr(0,1) ;
+
+    .. output :
+        i 
+
+
+
+
+
+
