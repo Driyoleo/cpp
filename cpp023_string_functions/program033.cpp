@@ -51,8 +51,13 @@ int main(){
 
     // substr()
     sentence = "i am a good boy" ;
-    cout << sentence.substr(0,1) ;
+    cout << sentence.substr(0,1) << endl ;
     
+    // erase()
+    sentence = "i am a good boy" ;
+    sentence.erase(7,5) ;
+    cout << ". " << sentence << " ." << endl ;
+
 
     return 0 ;
 }

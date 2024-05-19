@@ -151,6 +151,28 @@ eg..
     .. output :
         i 
 
+# erase()
+- it is used to remove certain characters in string
+- different syntax have different work
+- syntax :
+    1. string_variable.erase() ;
+    - delete all the characters inisde the string
+
+    2. string_variable.erase(3) ;
+    - delete all the characters from index 3
+
+    3. string_variable.erase(7,4) ;
+    - delete the elements starting from index 7 upto 4 characters from that
+
+- eg.. 
+    sentence = "i am a good boy" ;
+    sentence.erase(7,5) ;
+    cout << ". " << sentence << " ." << endl ;
+
+    .. output :
+        . i am a boy .
+
+
 
 
 
