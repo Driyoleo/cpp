@@ -1,0 +1,72 @@
+~ string iterator functions
+
+# begin() 
+- This function returns an iterator pointing to the beginning of the string.
+- syntax :
+    - string :: iterator itr ;          // declaration of iterator 
+    - itr = string_variable.begin() ;   // giving the pointer
+    - cout << *itr ;                    // dereferencing the pointer
+- eg.. 
+    string line = "i am a good boy" ;
+    string :: iterator itr = line.begin() ;
+    cout << *itr << endl ;
+
+    .. output :
+        i
+
+# end()
+- this function returns an iterator pointer to the end of the string
+- syntax : 
+    - string :: iterator itr ;          // declaration of iterator 
+    - itr = string_variable.end() ;   // giving the pointer
+    - cout << *itr ;                    // dereferencing the pointer
+- eg.. 
+    string line = "i am a good boy" ;
+    string :: iterator itr = line.end() - 1 ;
+    cout << *itr << endl ;
+
+    .. output :
+        y 
+    - always there is nul at the end of the string so we must do line.end() - 1 ;
+
+# rbegin()
+- this function reverse the string and retruns the pointer to the starting of the reversed string
+- syntax : 
+    - string :: reverse_iterator ri ;          // declaration of iterator 
+    - ri = string_variable.rbegin() ;          // giving the pointer
+    - cout << *ri ;                            // dereferencing the pointer
+- eg.. 
+    string line = "i am a good boy" ;
+    string :: reverse_iterator ri = line.rbegin() ;
+    cout << *ri << endl ;
+
+    .. output :
+        y 
+
+# rend() 
+- this funciton reverse the string and returns the pointer to the end of the reversed string 
+- syntax :
+    - string :: reverse_iterator ri ;          // declaration of iterator 
+    - ri = string_variable.rend() ;            // giving the pointer
+    - cout << *ri ;                            // dereferencing the pointer
+- eg.. 
+    string line = "i am a good boy" ;
+    string :: reverse_iterator ri = line.rend() - 1 ;
+    cout << *ri << endl ;
+
+    .. output :
+        i
+
+# rfind()
+- it returns the last occurence of a character in string 
+- syntax :
+    string_variable.rfind(<character>) ;
+- eg.. 
+    line = "hi , i am a mad boy" ;
+    int index = line.rfind('i') ;
+    cout << index << endl ;
+    
+    .. output :
+        5
+
+# cbegin , cend , crbegin and crend are similar but just it create a const iterator
