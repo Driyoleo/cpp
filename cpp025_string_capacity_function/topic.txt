@@ -1,0 +1,50 @@
+~ string capacity functions
+
+# length() 
+- it gives the length of a string ;
+- syntax :
+    string_variable.length() ;
+- eg.. 
+    string str = "hi my name is driyo" ;
+    cout << str.length() << endl ;
+
+    .. output :
+        19
+
+# capacity() 
+- it returns the capacity of a string 
+- note : if all the characters inside the string is cleared then also the capacity of the string remains same
+- syntax :
+    string_variable.capacity() ;
+- eg.. 
+    string str = "hi my name is driyo" ;
+    cout << str.capacity() << endl ;
+
+    .. output :
+        19
+
+# resize() 
+- it reduces the size of the string to given size by reducing characters inside it
+- syntax :
+    string_variable.resize() ;
+- eg.. 
+    string str = "hi my name is driyo" ;
+    str.resize(10) ;
+    cout << str << endl ;
+
+    .. output :
+        hi my name
+
+# shrink_to_fit() 
+- it shrink th size of the string to minimum capacity 
+- syntax :
+    string_variable.shrink_to_fit() ;
+- eg.. 
+    string str = " hi my name is driyo " ;
+    str.shrink_to_fit() ;
+    cout << str.capacity() << " " << str << endl ;
+
+    .. output :
+        21  hi my name is driyo
+
+        
