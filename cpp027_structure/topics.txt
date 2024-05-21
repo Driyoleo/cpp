@@ -1,0 +1,35 @@
+~ structure 
+
+# need 
+- For dealing with cases where there is a requirement to store dissimilar data types, C++ provides a data type called ‘structure’. 
+
+# defination
+- The structure is a user-defined data type that is available in C++.
+- Structures are used to combine different types of data types, just like an array is used to combine the same type of data types .
+
+# syntax :
+    - step 1 : define structure in global 
+                    struct <structure_name>{
+                        // define variables for it
+                    };
+    - step 2 : use it in main 
+                    struct <structure_name> <structure_variable> ;
+                    structure_variable.<variables> = value ;
+# eg.. 
+    #include<iostream>
+    using namespace std ;
+
+    struct student
+    {
+        int age ;
+        char grade ;
+    };
+
+    int main(){
+        struct student abhinav ;
+        abhinav.age = 12 ;
+        abhinav.grade = 'A' ;
+        cout << "age is "<< abhinav.age << " and grade is " << abhinav.grade << " of abhinav given ." ;
+        return 0 ;
+    }
+
