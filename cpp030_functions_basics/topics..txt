@@ -1,0 +1,81 @@
+~ funcitons
+
+# defination 
+- Functions are the main part of top-down structured programming. We break the code into small pieces and make functions of that code
+  Functions could be called multiple or several times to provide reusability and modularity to the C++ program. 
+
+# advantages
+- The use of functions allows us to avoid re-writing the same logic or code over and over again.
+- With the help of functions, we can divide the work among the programmers.
+- We can easily debug or can find bugs in any program using functions.
+- They make code readable and less complex.
+
+# types of functions 
+- library functions
+- user-defined funcitons
+
+# user-defined functions 
+- syntax 
+  - step 1 : declaration
+              <type> <function_name>(<actual parameters>){
+                defination
+              }
+  - step 2 : call 
+              <function_name>(<formal parameters>)
+- eg.. 
+  #include<iostream>
+  using namespace std ;
+
+  int sum(int a , int b ){
+      int c = a + b ;
+      return c ;
+  } 
+
+  int main(){
+      int num1 = 2 ;
+      int num2 = 3 ;
+      cout << sum(num1 , num2 ) ;
+      return 0 ;
+  }
+
+  .. output :
+    5
+
+- note :
+  - acceptable declarations ..
+    - (int a , int b) 
+    - (int , char) 
+    - (void)
+    - () .... for void functions only 
+  - not acceptable declarations.. 
+    - (int a , b) 
+    - (a , b)
+
+  - function must be declared before the main if the function prototype is not in use
+
+  - use of function prototype :
+    - if my function is not before where it is being called then we can use function prototype to avoid error
+    - syntax :
+      - <type> <function_name>(<parameters>) ;
+    - eg.. 
+      #include<iostream>
+      using namespace std ;
+
+      int sum(int a , int b);
+
+      int main(){
+          int num1 = 2 ;
+          int num2 = 3 ;
+          cout << sum(num1 , num2 ) ;
+          return 0 ;
+      }
+
+      int sum(int a , int b){
+          int c = a + b ;
+          return c ;
+      } 
+
+      .. output :
+        5
+
+        
