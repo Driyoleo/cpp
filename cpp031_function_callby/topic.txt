@@ -1,0 +1,76 @@
+~ callby 
+
+# types of callby 
+- 1. callby value
+- 2. callby pointer 
+- 3. callby reference
+
+# call by value 
+- reference :
+    void swap_callbyValue(int x , int y){
+    int temp = x ;
+    x = y ;
+    y = temp ;
+    }
+
+    // call
+    int a = 3 ;
+    int b = 5 ;
+    swap_callbyValue(a,b) ;                         
+    cout << "a = " << a << " , b = " << b << endl;
+
+    .. output :
+        a = 3 , b = 5
+
+- note :
+    - a and b are formal parameters and x and y are actual parameters
+    - x and y is a copy of a and b with different address 
+    - so upon swaping value of x and y .. value of a and b doesn't swap 
+    - therefore , there is no change in value of a and b 
+
+# callby pointer
+- reference :
+    void swap_callbyPointer(int* x , int* y){
+    int temp = *x ;
+    *x = *y ;
+    *y = temp ;
+    }
+
+    // call
+    int a = 3 ;
+    int b = 5 ;
+    swap_callbyPointer(&a,&b) ;                    
+    cout << "a = " << a << " , b = " << b << endl;
+
+    .. output :
+        a = 5 , b = 3
+    
+- note :
+    - a and b are formal parameters and x and y are actual parameters
+    - x and y are now pointer to a and b 
+    - now any change in *x and *y will change the value of a and b also 
+
+# callby reference variable 
+- reference :
+    void swap_callbyReference(int &x , int &y){
+    int temp = x ;
+    x = y ;
+    y = temp ;
+    }
+
+    // call 
+    int a = 3 ;
+    int b = 5 ;
+    swap_callbyReference(a,b) ;                     
+    cout << "a = " << a << " , b = " << b << endl;
+
+    .. output :
+        a = 5 , b = 3 
+    
+- note :
+    - a and b are formal parameters and x and y are actual parameters
+    - x and y are reference variable of a and b 
+    - means x and y have same value as well as same address of a and b
+    - therefore change in x and y will cahnge the value in a and b also 
+
+
