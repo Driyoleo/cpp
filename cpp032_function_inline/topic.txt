@@ -1,0 +1,68 @@
+# inline function 
+- it is used to  generally provide the inside code or the defination of  the function directly at the place where the function is called
+- it helps to reduce the code time complexibility
+- it is usually a request to the compilar so if the code inside the function is very heavy then it will denied
+- eg. 
+    inline int add(int a , int b ){
+    return (a+b) ;
+    }
+
+    // call
+    int a = 4 ;
+    int b = 3 ;
+    int sum = add(a,b) ;
+    cout << "sum : " << sum ;
+
+    .. output :
+        sum : 7 
+
+# static
+- it makes a statement inside a iterating code to run once at the beginning 
+- eg .. 
+    cout << "use of static :" << endl ;
+    for (int i = 1 ; i <= 10 ; i++){
+        static int total = i*10 ;
+        cout << total << " " << i << endl ;
+    }
+
+    .. output :
+        use of static :
+        10 1
+        10 2
+        10 3
+        10 4
+        10 5
+        10 6
+        10 7
+        10 8
+        10 9
+        10 10     
+- note : 
+    here at the first iteration , i = 1 and then total = i*10 = 10 
+    after that total remains same thus it has run only once at the beginning
+
+# default parameter
+- if any actual parameter is provided with a value then it becomes it's default parameter
+- eg..
+    int multiply(int a , int b = 1) {
+    return a*b ;
+    }
+
+    // call 
+    cout << multiply(4) << endl ;
+
+    .. output:
+        4
+- note :
+    - all default parameter must be given in the right hand or at the last
+    - if a value passed to the default parameter while calling the function then it will get the passed value
+    
+
+
+
+
+
+
+
+
+
