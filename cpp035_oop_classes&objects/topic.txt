@@ -1,0 +1,51 @@
+~ classes and objects
+
+# classes
+- diff between classes and structures :
+    - 1. data security in not present in structure
+    - 2. structure cannot hold function in them 
+- template for creating objects in cpp
+- syntax :
+    classes class_variable
+    {
+        private :
+            // private data
+        public :
+            // public data
+    }
+- eg.. 
+    class employee     
+    {
+        private :
+            int salary ;
+            long long int aadhar_num ;
+            string designation ;
+        public :
+            string name ;
+            int age ;
+            void getdata() ;
+            void setdata(int sal , long long int adnum , string desig) ; 
+    } ;
+- note :
+    - the variables inside private cannot be assecced directly
+    - it can be assecced through only functions which are in public 
+
+# object 
+- Basic run-time entities and instances of a class
+- syntax :
+    class_variable object_variable ;
+    // to access data 
+    object_variable.variables 
+- eg.. 
+    employee ramesh ;
+    ramesh.name = "Ramesh Mandal" ;
+    ramesh.age = 45 ;
+    ramesh.getdata() ;
+
+    .. output :
+        data of ---> Ramesh Mandal
+        Age : 45
+        Salary : 30000
+        Aadhar number : 778315792456
+        Designation : peon
+
