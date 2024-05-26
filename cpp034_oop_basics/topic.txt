@@ -1,0 +1,23 @@
+~ oop
+
+# about 
+- oop stands for object oriented programing .
+-  Programming with object-oriented concepts aims to emulate real-world concepts such as inheritance, polymorphism, abstraction, etc, in
+   a program. 
+
+# need 
+- improve readability of code
+- provide reuseability of code
+- ensure data security
+- helps in maintance of code
+
+# terminologies 
+- classes : Basic template for creating objects.
+- Objects – Basic run-time entities and instances of a class
+- Data Abstraction & Encapsulation – Wrapping data and functions into a single unit which makes the code simple and meaningful known as
+                                     data abstraction
+- Inheritance – Properties of one class can be inherited into others
+- Polymorphism – Ability to take more than one form
+- Dynamic Binding – Code which will execute is not known until the program runs
+- Message Passing – message (Information) call format
+
