@@ -52,7 +52,8 @@ int emp :: display_sal()
 }
 
 int main()
-{
+{   
+    // this set of code is holding the main concept of array of objects 
     int num ;
     cout << "how many employees you have : " ;
     cin >> num ;
