@@ -1,0 +1,16 @@
+~ friend function 
+
+# defination
+- it is declaration which declare a non menber function the permission to access private data 
+
+# syntax 
+- inside a class we need to declare this like..
+    friend data_type function_name(parameters) ;
+
+# note 
+- friend function is a non menber function
+- so it can't be accessed through object
+- it can be invoke without the help of object 
+- it can be declared in private or public doesn't matter 
+
+# example in program file ..
