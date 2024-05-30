@@ -1,0 +1,11 @@
+~ friend class
+
+# similar to friend function 
+
+# need 
+- if we need a whole class in which some function are using the private data of that class 
+
+# syntax 
+    - friend class class_name ;
+
+# example in the program file 
