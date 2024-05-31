@@ -1,0 +1,16 @@
+~ constructor
+
+# about 
+- A constructor is a special member function with the same name as the class , which automatically invoke on creation of a object of that
+  class
+
+# note 
+- it must be declared in public section
+- it doesn't return any value so doesn't have any return type 
+- it can have default parameter
+- it automatically invoke on creation of a new object of that class
+
+# syntax 
+- here function_name is similar to class_name 
+- class_name(parameter) ;   // declaration of constructor
+- eg.. emp(int a) ;
