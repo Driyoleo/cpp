@@ -1,0 +1,20 @@
+~ parameterized and default constructor
+
+# parameterized constructor 
+- in which parameters are given in it's parenthesis 
+- syntax 
+    - class_name(parameters) ;
+- note 
+    - it can be invoke in two ways 
+    - implicite call:
+        class_name object_name(parameters) ;
+    - explicite call :
+        class_name object_name = class_name(parameters) ;
+
+# default constructor 
+- it takes no parameters 
+- syntax 
+    class_name() ;
+
+# example in program file 
+
