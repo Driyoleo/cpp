@@ -1,0 +1,7 @@
+~ constructor overloading 
+
+# about 
+- it similar to function overloading
+- in which we can make multiple constructor with different parameter condition 
+
+# example in progrma file 
