@@ -1,0 +1,15 @@
+~ desturctor 
+
+# about 
+- similar to constructor it autommatically runs when the scope of the object finishes
+- and helps to free up the dynamic storage covered by the object 
+
+# syntax 
+- ~class_name() ;
+
+# note
+- it doesn't take any argument nor return any value 
+- it runs autommatically when the scope of the object finishes 
+
+# example in program file
+ 
