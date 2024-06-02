@@ -1,0 +1,22 @@
+~ inheritance
+
+# what is  inheritance 
+- the concept of reusability in c++ is through inheritance
+- we can reuse the properties of existing class by inheritance 
+- the existing class is called base class
+- and the new class which is inherited is called derived class 
+
+# need 
+- reusing class save time and money 
+- helps to follow DRY ( don't repeat yourself) in coding 
+- resuing of tested code will save lot of efforts in debugging of a new code
+
+# types of inheritance 
+- single inheritance : one base class and one derived class
+- multiple inheritance : multiple base class and one derived class 
+- hierarchical inheritance : one base class and multiple derived class 
+- multilevel inheritance : chain of single inheritance
+- hybrid inheritance : mixed chain of multilevel and  multiple inheritance 
+
+# some related flow charts of inheritance types are given in this folder
+
