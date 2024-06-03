@@ -1,26 +1,4 @@
-#include <map>
-#include <set>
-#include <list>
-#include <cmath>
-#include <ctime>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <string>
-#include <bitset>
-#include <cstdio>
-#include <limits>
-#include <vector>
-#include <climits>
-#include <cstring>
-#include <cstdlib>
-#include <fstream>
-#include <numeric>
-#include <sstream>
-#include <iostream>
-#include <algorithm>
-#include <unordered_map>
-
+#include<iostream>
 using namespace std;
 
 
@@ -35,27 +13,31 @@ int main(){
             int n;
             cout << "enter n : " ;
             cin >> n;
-            int sum = 0 ;
-            int i = 0 ;
-            while (i<n)
-            {
-                int x , y ;
-                x = 3*i ;
-                y = 5*i ;
-                if ( x>n && y>n )
-                {
-                    break;
-                }
-                if (x<n)
-                {
-                    sum+=3*i ;
-                }
-                if ((y < n) && (i%3!=0))
-                {
-                    sum+=5*i ;
-                }
-                i++ ;
+            n-- ;
+            long long int  sum = 0 ;
+            long long int n3 , n5 , n15 , l3 , l5 , l15 ;
+            
+            if ((n+1)>3) {            
+                l3 = n - (n%3) ;
+                n3 = l3/3 ;
+                sum = sum + 3 * ((n3*(n3+1))/2) ;
             }
+
+            if ((n+1)>5){                
+                l5 = n - (n%5) ; 
+                n5 = l5/5 ;
+                sum = sum + 5 * ((n5*(n5+1))/2) ;
+            }
+            
+
+
+            if ((n+1)>15)
+            {
+                l15 = n - (n%15) ;
+                n15 = l15/15 ;
+                sum = sum - 15* ((n15*(n15+1))/2) ;
+            }
+
             cout << sum << endl ;
         }
     }
