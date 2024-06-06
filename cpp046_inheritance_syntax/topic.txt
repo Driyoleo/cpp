@@ -1,0 +1,13 @@
+~ syntax and visibility mode 
+
+# syntax to derive a class from base class
+- class derive_class_name : visibility base_class_name 
+- visibility is private as default so if it is not provided it will automatcally private
+
+# visibility 
+- private : means the public data of base class will become private data of derived class
+- public : means the public data of base class will become public data of derived class 
+
+# note 
+- private data of base class is not inherited by derived class 
+- by default visibility is private 
