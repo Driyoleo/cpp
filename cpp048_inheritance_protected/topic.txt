@@ -1,0 +1,11 @@
+~ protected data and protected visibility
+
+# protected data :
+- data which is private but can be inherited 
+
+# how inheritance of data work in three visibility 
+                public          private         protected
+private         not inherited   not inherited   not inherited 
+protected       protected       private         protected
+public          public          private         protected
+
