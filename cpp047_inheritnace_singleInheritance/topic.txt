@@ -1,0 +1,6 @@
+~ observation in single inheritance
+
+1. private data of base class is never inherited 
+2. but we can access them by using the funciton of that class which are inherited 
+3. we can't use constructors of base class in derived class 
+4. we can also set the private data of base class by inherited funciton 
