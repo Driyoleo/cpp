@@ -1,0 +1,12 @@
+~ multiple inheritance 
+
+# about 
+- derived class with multiple base class 
+
+# syntax 
+- class derived_class_name : visibility base_class1 , visibility base_class2 ... , visibility base_classn {} ;
+
+# note
+- it will get all the protected and public members of the base class as per their visibility 
+
+# example in the program file 
