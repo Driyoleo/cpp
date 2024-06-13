@@ -1,0 +1,24 @@
+~ ambiguity resolution in inheritance
+
+# what is ambiguity ?
+- when there is any confused situtation between the base classes and derived classes with same member or method it is called ambiguity of
+  inheritance
+
+# cases of ambiguity 
+
+    case 1 : same member or method in both base classes 
+        - then we have to resolve that ambiguity by ...
+
+            1. for ambiguity in member 
+                data_type member_name = base_class_name :: member_name ;
+
+            2. for ambiguity in method 
+                data_type method_name(parameters){
+                    base_class_name :: method_name(parameters);
+                }
+
+    case 2 : same member or method in base class and derived class 
+        - no need of resolution is there cause the member or method in the derived class will overwrite the member or method 
+
+ 
+            
