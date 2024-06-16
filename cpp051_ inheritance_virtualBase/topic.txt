@@ -1,0 +1,3 @@
+~ virtual base 
+
+- it helps to avoid  ambiguity when inheritance is happening from two class inherited with same class 
