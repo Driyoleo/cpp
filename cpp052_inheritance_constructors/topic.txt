@@ -1,0 +1,20 @@
+~ constructors in inheritance
+
+# way of declaration constructor in derived class 
+- if there is no argument in base class constructor 
+    derived_class_name(argument){};
+
+- if there is argument in base class constructor
+    derived_class_name(int arg1 , int arg2 , int arg3) : base1_name(arg2) , base2_name(arg3){} ;
+
+# order of execution 
+- first base class constructors will be called then constructor of derived class is called
+- base class constructors will be called in the order of declaration inheritance
+    eg.
+        class D : public A , public B{} ;
+    - order of execution --> A() --> B() --> D() 
+- if there is any virtual base class is present then there constructors will be called first in order
+    eg. 
+        class D : public A , virtual public B{} ;
+    - order of execution --> B --> A --> D
+
