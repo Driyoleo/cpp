@@ -1,4 +1,4 @@
-~ arrow operators in pointer (new  & delete)
+~ new  & delete operators
 
 # dynamic allocation (new)
 - it generates a dynamic data which can be delete whenever needed to free up space 
