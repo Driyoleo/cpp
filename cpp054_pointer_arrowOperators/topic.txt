@@ -1,0 +1,33 @@
+~ arrow operators in pointer (new  & delete)
+
+# dynamic allocation (new)
+- it generates a dynamic data which can be delete whenever needed to free up space 
+- syntax :
+    - for int , float ,..etc etc data types
+        data_type * variable = new data_type(value) ;
+        eg..
+            int *num = new int(8) ;
+            cout << num << " : " << *num << endl ;
+
+            output :
+                0x279a5e28090 : 8
+    - for arrays 
+        data_type * variable = new data_type[number_of_elements] ;
+        eg..
+            int *arr = new int(2) ;
+            arr[0] = 10 ;
+            arr[1] = 20 ;
+            cout << "arr[0] : " << arr[0] << endl ;
+            cout << "arr[1] : " << arr[1] << endl ;
+
+            output :
+                arr[0] : 10
+                arr[1] : 20
+
+# delete operator
+- it delete the value of the pointer 
+- syntax :
+    delete pointer ;
+    
+
+            
