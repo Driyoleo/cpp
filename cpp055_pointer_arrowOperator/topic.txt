@@ -1,0 +1,10 @@
+~ arrow operator 
+
+# used
+- it is used for simple syntax while dealing with a pointer of class or structure
+
+# syntax 
+- pointer_name -> (variable_name or function_name)
+
+# example in program 
+
