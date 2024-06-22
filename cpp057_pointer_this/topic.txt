@@ -1,0 +1,10 @@
+~ this keyword 
+
+# about 
+- it provides a pointer of that object 
+
+# use 
+- specially used to remove confusion between same member and local varibale of a function 
+
+# example in program 
+
