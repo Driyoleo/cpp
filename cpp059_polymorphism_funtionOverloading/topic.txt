@@ -1,0 +1,7 @@
+~ funtion overloading
+
+# about 
+- when multiple funtions with same name but different parameter are introduced in a class it is known as funtion overloading
+
+# example in code
+
