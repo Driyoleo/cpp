@@ -1,0 +1,18 @@
+~ polymorphism
+
+# about 
+- it means multiple form of a thing , and in c++ terms .. multiple from of a function 
+- there are two types of polymorphism 
+    1. compile time polymorphism
+    2. run time polymorphism
+
+# compile time polymorphism
+- when the binding of function is done while compilation is called compile time polymorphism
+- compile time polymorphism can be done in two ways 
+    1. function overloading
+    2. operator overloading 
+
+# run time polymorphism
+- when binding of function is done during run time it is called run time polymorphism
+- it happens through mainly virtual functions
+
