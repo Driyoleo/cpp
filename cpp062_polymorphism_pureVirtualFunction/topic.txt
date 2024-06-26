@@ -1,0 +1,1 @@
+# pure virtual function is a virtual function which needs to be redefined always in a inherited class
