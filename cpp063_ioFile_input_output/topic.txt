@@ -1,0 +1,61 @@
+~ I/O file : input and output 
+
+# about 
+- the work with a file inside a directory is done with the help of header file fstream
+- it is important for those work which needs to save data for work 
+- for output from a file : ofstream class is used
+- for input from a file : ifstream class is used 
+
+# ofstream 
+- syntax 
+    ofstream out("<filepath>") ;
+    out << "text to be inserted in the file" ;
+- note :
+    - it will open the file and make it accessible for writing in it
+    - if the file is not present it will create a new file in that path
+    - if the file already exist then also it creates a new file of same name and overwrite on that
+
+# ifstream
+- syntax 
+    string str ;
+    ifstream in("<filepath>") ;
+    in >> str ; or.. getline(in,str) ;
+- note :
+    - it will open the file and make it accessible for reading 
+    - if the file is not present it will give a blank file or nothing
+    - difference btw in and getline :   
+        - in will return will read data separated with space or newline
+            eg..
+                in >> data1 >> data2 ;
+                cout << data1 << " " << data2 << endl ;
+
+            output :
+                hello world  
+        - getline will give a whole line means data upto a new line
+            eg.. 
+                getline(in , data1 ) ;
+                cout << data1 << endl ;
+
+            output :
+                hello world 
+        - in results in forwarding pointer just after the previous data 
+            eg..
+                in >> data1 >> data2 >> data3;
+                cout << data1 << " " << data2 << " " << data3 << endl ;
+                getline(in , data1 ) ;
+                cout << data1 << endl ;
+            
+            output :
+                hello world i
+                 am new here 
+        - getline results in forwarding the pointer to next line
+            eg.. 
+                getline(in , data1 ) ;
+                cout << data1 << endl ;
+                getline(in , data1 ) ;
+                cout << data1 << endl ;    
+
+            output :
+                hello world 
+                i am new here 
+                
