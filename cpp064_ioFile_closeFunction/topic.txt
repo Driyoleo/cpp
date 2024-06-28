@@ -1,0 +1,8 @@
+~ close funtion 
+
+# work 
+- it helps to break the link between the object and the file
+- it flush out the data inside the file 
+
+# syntax 
+- ifstream_object.close() ;
