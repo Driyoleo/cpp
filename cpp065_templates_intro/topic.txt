@@ -1,0 +1,7 @@
+~ template 
+
+# about 
+- it is a format of a class can be said in simple languauge
+- it is used to define a same class with different data type 
+- note :
+    - it must be noted just above the class
