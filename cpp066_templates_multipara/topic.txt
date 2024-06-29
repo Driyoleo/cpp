@@ -1,0 +1,9 @@
+~ parameters in templates
+
+# syntax 
+    - template <class T1 , class T2 .... , class Tn>    // as many variables we want doesn't matter
+
+~ default parameters in templates
+
+# syntax 
+    - template <class T1 = int , class T2 = float>        
