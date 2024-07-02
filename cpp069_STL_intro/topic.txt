@@ -1,0 +1,15 @@
+~ STL : standard template library
+
+# it is a well defined components of template which helps in cp or fast coding 
+
+# components of STL 
+- 1. containers 
+- 2. algorithm
+- 3. iterator
+
+# containers
+- it stores the data 
+- types of containers :
+    - 1. sequence : list , vector , dequeue
+    - 2. associate : map , set 
+    - 3. derived : stack , queue , priority-queue
