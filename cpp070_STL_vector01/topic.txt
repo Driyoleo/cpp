@@ -1,0 +1,24 @@
+~ vector 
+
+# about 
+- Vectors are sequence containers representing arrays that can change in size.
+- it has a dynamic size which changes as per requirement
+
+# pros 
+- fast to random access
+- sequenced 
+- reduce expensive code
+
+# how to create vector
+- 1. vector <data_type> vector_name ;
+    - creates vector with zero size of given data_type
+
+- 2. vector <data_type> vector_name(3) ;
+    - creates vector with size 3 of given data_type
+    
+- 3. vector <data_type> vector_name(vector_ofsamedatatype) ;
+    - creates another vector with same size and elements
+    
+- 4. vector <data_type> vector_name(size , element) ;
+    - creates vector of size given with one element 
+
