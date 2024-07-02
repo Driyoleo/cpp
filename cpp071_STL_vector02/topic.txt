@@ -1,0 +1,20 @@
+~ capacity member functions
+
+# mostly used capacity member functions are :
+- size() 
+- empty()
+
+# size() 
+- it returns the size of the vector
+- syntax :
+    vector_name.size(int) ;
+
+# empty() 
+- it returns bool value after checking it's size is zero or not
+- syntax :
+    vector_name.empty() ;
+- note :    
+    - if true : 1 
+    - if false : 0 
+
+# example in the program file
