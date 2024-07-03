@@ -17,4 +17,23 @@
     - if true : 1 
     - if false : 0 
 
+# capacity :
+- Returns the size of the storage space currently allocated for the vector, expressed in terms of elements.
+- syntax :
+    vector_name.capacity() ;
+- note :
+    - when we increase size by push_back or resize() it also increses
+    - but while decreasing the size with resize() it remains the same
+
+# resize
+- Resizes the container so that it contains n elements
+- syntax :
+    vector_name.resize() ;
+
+# shrink_to_fit()
+- it makes the size and capacity of the vector same
+- syntax :
+    vector_name.shrink_to_fit() ;
+
+
 # example in the program file
