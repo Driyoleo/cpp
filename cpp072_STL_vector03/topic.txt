@@ -1,0 +1,41 @@
+~ element access member function
+
+# member functions
+- operator[]
+- at
+- front
+- back 
+- data
+
+# operator :
+- returns the element at the index given
+- syntax :
+    vector_name[index] ;
+
+# at
+- similar to operator[]
+- syntax :
+    vector_name.at(index) ;
+
+# front
+- it returns the element at the front
+- syntax :
+    vector_name.front() ;
+
+# back
+- it returns the element at the back 
+- syntax :
+    vector_name.back() ;
+
+# data
+- A pointer to the first element in the array used internally by the vector 
+- syntax :
+    data_type * pointer_name = vector_name.data() ;
+
+# note :
+- using these functions we can only access element upto the vector size
+- through this we can not increase or decrease the size of vector
+- thus it is better to use them for :
+    - get the element 
+    - change the element
+    only..
