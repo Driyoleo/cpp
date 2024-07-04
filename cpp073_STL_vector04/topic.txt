@@ -1,0 +1,47 @@
+~ iterator
+
+# about :
+- just like pointer which points to the address of the elements in the vector
+
+
+# iterator member function of vector 
+- begin
+- end
+- rbegin
+- rend
+- cbegin
+- cend
+- crbegin
+- crend
+- note : these retunrs a iterator
+
+# member types of iterator
+- iterator : begin , end
+- reverse_iterator : rbegin , rend 
+- const_iterator : cbegin , cend
+- const_reverse_iterator : crbegin , crend
+
+# using iterator :
+- 1. define a iterator
+- 2. dereferencing iterator 
+
+# defining iterator ;
+- syntax 
+    vector <data_type> :: iterator_type iterator_name = iterator_function ;
+    or..
+    auto iterator_name = iterator_function ;
+
+# dereferencing iterator 
+- normal 
+- we can use it as a pointer 
+- syntax 
+    *(iterator_name) ;
+    *(++iterator_name) ; // for next element
+
+# note :
+- when dealing with end iterator funcitons 
+- *(iterator_name) will return garbage value
+- because it is one step ahead of the end element
+- thus *(-- iterator_name) will give the end element 
+    
+ 
