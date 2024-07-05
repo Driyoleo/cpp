@@ -1,0 +1,21 @@
+~ pair in list
+
+# syntax for creating a list with pair of list
+    list <pair<data_type1 , data_type2>> list_name = {{data1 , data2} , {data3 ,data4}..etc } ;
+
+# how to access
+- eg. 
+    int <pair<int,int>> l = {{1,2} , {2,3}} ;
+    l.push_back({5,6}) ;
+    cout << "pair at front : " << l.front().first << " , " << l.front().second << endl ;
+    auto it = l.rbegin() ;
+    cout << "pair at back : " << (*it).first << " , " << (*it).second << endl ;
+
+    output :
+        pair at front : 1 , 2
+        pair at back : 5 , 6 
+    
+# note :
+- while pushing elements we need to push in this fromat .. { data1 , data2 }
+- to access data1 we need to use .first
+- to access data2 we need to use .second 
