@@ -1,0 +1,48 @@
+~ modifiers member functions
+
+# functions 
+- push_back() 
+- pop_back()
+- insert()
+- erase()
+- swap()
+- clear()
+
+# push_back()
+- it add given element at the end 
+- along with it increases the size of the vector
+- syntax
+    vector_name.push_back(element) ;
+
+# pop_back()
+- it delete the last element in a vector
+- along with it it decreases the size of the vector
+- syntax 
+    vector_name.pop_back() ;
+
+# insert()
+- it add a element at a given place with a element of given number of times
+- along with it increases the size of the vector 
+- syntax 
+    vector_name.insert(vector_iterator , number_of_times , element) ;
+
+# erase() 
+- it delete a element if one argument is given that is position(vector_iterator)
+- or a range of elements if two argument given that is starting and ending iterator 
+- it decreases the size of the vector 
+- syntax 
+    vector_name.erase(position_iterator) ;
+    or ..
+    vector_name.erase(starting_iterator , ending_iterator) ;
+
+# swap() 
+- it exhange the content between two vector
+- syntax 
+    vec1.swap(vec2) ;
+
+# clear()
+- it delete all the elements of the vector
+- make the size of the vector 0 
+- syntax
+    vector_name.clear() ;
+    
