@@ -1,0 +1,18 @@
+~ element accessing member functions
+
+# functions
+- front 
+- back 
+
+# front 
+- retunrs the element at the beginning
+- syntax 
+    list_name.front() ;
+
+# back 
+- retunrs the element at the back 
+- syntax 
+    list_name.back() ;
+
+# note :   
+- in case of list operator[] is not defined to access elements
