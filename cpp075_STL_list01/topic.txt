@@ -1,0 +1,25 @@
+~ list 
+
+# about 
+- Lists are sequence containers that allow constant time insert and erase operations anywhere within the sequence, and iteration in both directions.
+
+# capacity member functions 
+- size 
+- empty
+- max_size
+
+# size
+- returns the size of the list 
+- syntax 
+    list_name.size() ;
+
+# empty 
+- it checks the list is empty or not then return 0 or 1 as bool value
+- syntax 
+    list_name.empty() ;
+
+# max_size
+- it returns the max capacity of the list  
+- syntax 
+    list_name.max_size() ;
+    
