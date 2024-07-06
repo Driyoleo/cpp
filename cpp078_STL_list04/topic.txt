@@ -1,0 +1,33 @@
+~ modifier member functions
+
+# functions 
+- push_back
+- push_front 
+- pop_back 
+- pop_front 
+- insert
+- erase 
+- clear 
+
+# push_back 
+- add a element in back of the list 
+- syntax 
+    list_name.push_back(element) ;
+
+# push_front
+- add a element in front of the list 
+- syntax 
+    list_name.push_front(element) ;
+
+# pop_back 
+- delete a element at the end of the list 
+- syntax 
+    list_name.pop_back() ;
+
+# pop_front
+- delete a element from the front of the list
+- syntax 
+    list_name.pop_front() ;
+
+# remainings are similar to vector functions  .. 
+# example in the program file 
