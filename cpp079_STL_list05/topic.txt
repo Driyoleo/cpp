@@ -1,0 +1,61 @@
+~ operational member funcitons
+
+# funcitons 
+- splice
+- remove
+- remove_if
+- sort
+- unique
+- reverse
+
+# splice
+- used to transfer elements between lists
+- diff. splice funcitons and syntax:  
+    - 1. list1.splice(iterator_l1 , list2) ;
+        - it transfer all the elements of list2 into list1
+        - at the position iterator given
+    
+    - 2. lis1.splice(iterator_l1 , list2 , iterator_l2) ;
+        - it transfer only one element of list2 
+        - at the position given iterator_l2 
+        - into the list1 at the position given by iterator_l1
+
+    - 3. list1.splice(iterator_l1 , list2 , iterator_l2_start , iterator_l2_end) 
+        - it transfer all the element between the range
+        - iterator_l2_start and iterator_l2_end
+        - from list2 to list1
+    
+# remove 
+- it delete one element which matches with the value given
+- syntax :
+    list_name.remove(value) ;
+
+# remove_if
+- it deletes all the elements satisfyting of a particular condition
+- syntax :
+    list_name.remove_if(bool_function) ;
+- note :
+    - it takes a boolean funciton as argument 
+    - the boolean funciton must take a value 
+    - then return 1 or 0 
+
+# sort 
+- it sort the list elements in increasing order
+- mostly used before unique funciton 
+- syntax :
+    list_name.sort() ;
+
+# unique
+- it deletes all the double elements which are present adjacent to each other
+- therefore to do it perfectly sort funciton is used before
+- syntax :
+    list_name.unique() ;
+
+# reverse 
+- reverse the elements order
+- syntax :
+    list_name.reverse() ;
+
+# example present in the program file ..
+ 
+    
